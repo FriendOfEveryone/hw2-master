@@ -2,21 +2,36 @@
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    gap: 10px;
 }
 
 .error {
+    color: red;
 }
 
 .input {
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .input:focus {
 }
 
 .errorInput {
+    border: 2px solid red;
 }
 
 .button {
+    background-color: #0059b3;
+    font-size: 16px;
+    color: white;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
 }
 
 .button:focus {
@@ -26,10 +41,13 @@
 }
 
 .button:disabled {
+    opacity: 0.5;
 }
 
 .text {
+    color: grey;
 }
 
 .greeting {
+    font-weight: bold;
 }

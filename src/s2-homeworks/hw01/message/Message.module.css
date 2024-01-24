@@ -1,17 +1,24 @@
 .message {
-
+    margin: 30px;
 }
 
 .imageAndText {
-
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    align-items: end;
 }
 
 .imageAndText img {
-
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 0 10px;
 }
 
 .text {
-
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
 }
 
 .text:after {
@@ -19,13 +26,18 @@
 }
 
 .name {
-
+    font-weight: bold;
+    margin: 5px;
 }
 
 .messageText {
-
+    font-weight: normal;
+    margin: 5px;
 }
 
 .time {
-
+    font-weight: bold;
+    text-align: right;
+    font-size: 10px;
+    margin-right: 8px;
 }
