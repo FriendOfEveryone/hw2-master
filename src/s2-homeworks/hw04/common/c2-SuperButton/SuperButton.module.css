@@ -1,6 +1,8 @@
 .button {
     height: 35px;
-    width: 150px;
+    max-width: 130px;
+    min-width: 80px;
+    width: 100%;
     background-color: blue;
     color: white;
     border: 1px solid transparent;
@@ -54,4 +56,6 @@
 }
 
 .button:disabled {
+    width: 170px;
+    opacity: 0.5;
 }
