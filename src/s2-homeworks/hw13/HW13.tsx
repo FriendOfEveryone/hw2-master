@@ -35,7 +35,7 @@ const HW13 = () => {
             .post(url, {success: x})
             .then((res) => {
                 setCode('Код 200!')
-                setText('...всё ок!)')
+                setText('...всё ок)')
                 setInfo('код 200 - обычно означает что скорее всего всё ок)')
                 setImage(success200)
 
